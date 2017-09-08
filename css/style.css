@@ -104,6 +104,8 @@ header .highlight, header .current a {
  	padding: 15px;
  	color: #ffffff;
  	background: #35424a;
+ 	border-top: darkorange 3px solid;
+ 	border-bottom: darkorange 3px solid;
  }
 
  #newsletter h1 {
@@ -282,7 +284,10 @@ footer {
 	#newsletter form,
 	#boxes .box,
 	article#main-col,
-	aside#sidebar {
+	aside#sidebar,
+	#gallery .site,
+	#gallery .art,
+	#gallery .vid {
 		float: none;
 		text-align: center;
 		width: 100%;
