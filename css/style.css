@@ -295,8 +295,13 @@ footer {
 
 @media(max-width: 466px) {
 
+	#showcase {
+		min-height: 150px;
+	}
+
 	#showcase h1 {
 		font-size: 30px;
+		margin: 15px 0 15px 0;
 	}
 }
 
