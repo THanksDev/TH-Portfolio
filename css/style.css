@@ -293,4 +293,10 @@ footer {
 	}
 }
 
+@media(max-width: 466px) {
+
+	#showcase h1 {
+		font-size: 30px;
+	}
+}
 
