@@ -49,20 +49,15 @@
 			<aside id="sidebar">
 				<div class="dark">
 					<h3>Email Me</h3>
-					<form action="mailto:travishanks28@gmail.com" method="post" enctype="text/plain" class="quote">
-						<div>
-							<label>Name</label><br>
-							<input type="text" placeholder="Name">
-						</div>
-						<div>
-							<label>Email</label><br>
-							<input type="text" placeholder="Email Address">
-						</div>
-						<div>
-							<label>Message</label><br>
-							<textarea placeholder="Type Message"></textarea>
-						</div>
-						<button class="buttom_1" type="submit">Send</button>
+					<form action="mailto:travishanks28@gmail.com?subject=Portfolio Contact Form" method="post" enctype="text/plain">
+						<label class="label">Name:</label><br>
+						<input type="text" name="name"><br>
+						<label class="label">Email:</label><br>
+						<input type="text" name="email"><br>
+						<label class="label">Message:</label><br>
+						<textarea name="message"></textarea><br>
+						<button type="submit">Submit</button>
+						<button type="reset">Reset</button>
 					</form>
 				</div>
 			</aside>
